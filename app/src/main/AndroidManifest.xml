@@ -13,9 +13,8 @@
         android:theme="@style/Theme.Electrical_diagram_mobile"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.EditDiagramActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.Electrical_diagram_mobile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
